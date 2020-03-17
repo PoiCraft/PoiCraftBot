@@ -10,7 +10,7 @@ import (
 )
 
 //go:generate cqcfg -c .
-// cqp: 名称: PoiCtartBot
+// cqp: 名称: PoiCraftBot
 // cqp: 版本: 1.0.2:0
 // cqp: 作者: topjohncian
 // cqp: 简介: PoiCraftBot

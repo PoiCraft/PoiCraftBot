@@ -17,7 +17,7 @@ go build -ldflags "-s -w" -buildmode=c-shared -o app.dll
 IF ERRORLEVEL 1 pause
 
 :: Copy app.dll amd app.json
-SET DevDir=C:\Users\Administrator\Desktop\CQA-tuling\酷Q Air\dev\com.poicrart.botl
+SET DevDir=D:\酷Q Air\dev\com.poicraft.bot
 if defined DevDir (
     echo Coping files
     for %%f in (app.dll,app.json) do move %%f "%DevDir%\%%f" > nul

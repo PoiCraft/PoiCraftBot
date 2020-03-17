@@ -9,4 +9,5 @@ require (
 	github.com/google/uuid v1.1.1
 	github.com/mattn/go-sqlite3 v1.13.0
 	github.com/miaoscraft/SiS v1.3.1
+	golang.org/x/net v0.0.0-20190603091049-60506f45cf65
 )

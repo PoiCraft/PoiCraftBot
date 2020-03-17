@@ -33,6 +33,11 @@ func Init(dir string) error {
 		return fmt.Errorf("打开数据库出错: %v", err)
 	}
 
+	// 连接MC服务器
+	err = openWebSocket()
+	if err != nil {
+		return fmt.Errorf("连接WebSocketApi出错: %v", err)
+	}
 	return nil
 }
 
